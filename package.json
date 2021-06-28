@@ -1,0 +1,13 @@
+{
+  "name": "astro-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "sandbox": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^3.7.2",
+    "astro": "^0.15.0"
+  }
+}
