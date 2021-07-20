@@ -7,7 +7,9 @@
     "sandbox": "npx sandbox"
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.7.2",
-    "astro": "^0.15.0"
+    "@architect/sandbox": "^3.7.2"
+  },
+  "dependencies": {
+    "astro": "^0.17.3"
   }
 }
