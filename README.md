@@ -1,40 +1,36 @@
-# Welcome to [Astro](https://astro.build)
+# Astro Starter 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This is a starter example for [Astro](https://astro.build), deployed with [Begin](https://begin.com).
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+## Deploy your own
 
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+[![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/astro-starter)
+
+Deploy your own clone of this app to Begin!
+
+## Getting started
+
+### Project setup
+
+```bash
+npm install
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Start the local dev server
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```bash
+npm run start
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+Navigate to [localhost:3000](http://localhost:3000). You should see your app running.
 
-## 🧞 Commands
+## Begin Reference
 
-All commands are run from the root of the project, from a terminal:
+- [Quickstart](https://docs.begin.com/en/guides/quickstart/) - basics on working locally, project structure, deploying, and accessing your Begin app
+- [Creating new routes](https://docs.begin.com/en/functions/creating-new-functions) - basics on expanding the capabilities of your app
 
-| Command         | Action                                      |
-|:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm run start` | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
+Head to [docs.begin.com](https://docs.begin.com/) to learn more!
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+

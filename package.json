@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "astro dev",
-    "build": "node -v && astro build",
+    "build": "astro build",
     "sandbox": "npx sandbox"
   },
   "devDependencies": {

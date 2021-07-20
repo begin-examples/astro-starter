@@ -1,5 +1,5 @@
 @app 
-astro-begin
+astro-starter
 
 @static
 folder dist
