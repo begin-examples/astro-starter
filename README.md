@@ -1,7 +1,6 @@
-# Astro Starter 
+# Astro Starter
 
 This is a starter example for [Astro](https://astro.build), deployed with [Begin](https://begin.com).
-
 
 ## Deploy your own
 
@@ -13,17 +12,37 @@ Deploy your own clone of this app to Begin!
 
 ### Project setup
 
+Using Node.js v14.x (AWS Lambda default) and npm 7
+
 ```bash
 npm install
 ```
 
-### Start the local dev server
+### Start the local Astro dev server
 
 ```bash
-npm run start
+npm run dev
 ```
 
 Navigate to [localhost:3000](http://localhost:3000). You should see your app running.
+
+You can also test out the built version locally by building your Astro site with:
+
+```sh
+npm run build # an alias for astro build
+```
+
+Then run the Architect Sandbox with
+
+```sh
+npm run start
+```
+
+Navigate to [localhost:3333](http://localhost:3333) to see how Sandbox serves static assets from the `./dist` directory.
+
+## Deploy to Begin
+
+When your main branch on GitHub is updated, Begin will build your Astro site and deploy the static assets directly.
 
 ## Begin Reference
 
