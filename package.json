@@ -10,6 +10,6 @@
     "astro": "^0.23.7"
   },
   "devDependencies": {
-    "@architect/sandbox": "^5.1.2"
+    "@architect/sandbox": "^5.2.0"
   }
 }
