@@ -7,7 +7,7 @@
     "start": "sandbox"
   },
   "dependencies": {
-    "astro": "^0.26.1"
+    "astro": "^1.6.12"
   },
   "devDependencies": {
     "@architect/sandbox": "^5.2.4"
